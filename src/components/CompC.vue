@@ -6,12 +6,7 @@
 </template>
 
 <script>
-import CompA from './CompA'
-
 export default {
-  props: ['level'],
-  components: {
-    CompA
-  }
+  props: ['level']
 }
 </script>
