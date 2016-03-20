@@ -1,17 +1,19 @@
 <template>
   <div>
-    A to B {{level}}
-    <comp-b :level="level+1"></comp-b>
+    {{level}}
+    <div v-if="level<111111111">
+    	<comp-a :level="level+1"></comp-a>
+    </div>
   </div>
 </template>
 
 <script>
-import CompB from './CompB'
+import CompA from './CompA'
 
 export default {
   props: ['level'],
   components: {
-    CompB
+    CompA
   }
 }
 </script>

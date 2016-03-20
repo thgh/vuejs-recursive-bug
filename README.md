@@ -1,6 +1,6 @@
 # bug
 
-> A Vue.js project
+Using locally registered components, you can't just load a component in itself.
 
 ## Build Setup
 
