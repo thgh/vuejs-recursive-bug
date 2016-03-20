@@ -1,7 +1,9 @@
 <template>
   <div>
-    Let's see component B to C {{level}}
-    <comp-c :level="level+1"></comp-c>
+    B to C {{level}}
+    <div v-if="level<11111111">
+      <comp-c :level="level+1"></comp-c>
+    </div>
   </div>
 </template>
 
